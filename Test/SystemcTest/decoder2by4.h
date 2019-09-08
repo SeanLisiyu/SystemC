@@ -7,8 +7,12 @@ SC_MODULE(decoder2by4) {
 	sc_out<sc_uint<4> > z;
 
 
-	void pic_decoder2by4();
+	void prc_decoder2by4();
 
+	SC_CTOR(decoder2by4) {
+		SC_METHOD(prc_decoder2by4);
+		sensitive(enable);
+		sensitive(select);
 
-
+	}                                        
 };

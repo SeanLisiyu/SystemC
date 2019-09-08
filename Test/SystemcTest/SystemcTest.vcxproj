@@ -159,12 +159,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="decoder2by4.cpp" />
+    <ClCompile Include="fulladder.cpp" />
     <ClCompile Include="SystemcTest.cpp" />
+    <ClCompile Include="testbench.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="decoder2by4.h" />
+    <ClInclude Include="driver.h" />
+    <ClInclude Include="fulladder.h" />
     <ClInclude Include="hadder.h" />
     <ClInclude Include="hello.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

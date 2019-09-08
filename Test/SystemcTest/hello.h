@@ -7,5 +7,3 @@ SC_MODULE(hello)
 		cout << "Hello,lisiyu !!!" << endl;
 	}
 };
-
-SC_MODULE

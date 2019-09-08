@@ -18,6 +18,15 @@
     <ClCompile Include="SystemcTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fulladder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="decoder2by4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testbench.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
@@ -29,5 +38,14 @@
     <ClInclude Include="decoder2by4.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="fulladder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>
