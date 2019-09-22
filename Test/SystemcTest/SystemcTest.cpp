@@ -3,9 +3,12 @@
 
 #include "hello.h"
 #include "decoder2by4.h"
-
+#include "fulladder.h"
+#include "monitor.h"
+#include "driver.h"
 int sc_main(int argc, char* argv[])
-{
+{	
+	sc_signal<bool> t_a, t_b, t_cin, t_sum, t_cout;
 	hello  h("hello");
 	return 0;
 }
