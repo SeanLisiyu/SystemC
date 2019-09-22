@@ -6,7 +6,6 @@ SC_MODULE(driver) {
 	void prc_driver();
 
 	SC_CTOR(driver) {
-		SC_THREAD(prc_driver);
+	
 	}
 };
-
