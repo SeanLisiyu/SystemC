@@ -160,6 +160,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="decoder2by4.cpp" />
+    <ClCompile Include="driver.cpp" />
     <ClCompile Include="fulladder.cpp" />
     <ClCompile Include="SystemcTest.cpp" />
     <ClCompile Include="testbench.cpp" />

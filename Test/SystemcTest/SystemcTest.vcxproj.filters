@@ -27,6 +27,9 @@
     <ClCompile Include="testbench.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h">
